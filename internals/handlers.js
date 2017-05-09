@@ -1,7 +1,13 @@
-var staticServer = require("./static-server");
+var staticServer =require("./static-server");
+var config = require("../config/config");
+var mongo = require("mongodb").MongoClient;
 
-var mongo = require('mongodb').MongoClient;
-var url = 'mongodb://127.0.0.1:27017/Condos'
+var url = config.dbStringConnection;
+console.log(`BD : ${url}`);
+// var staticServer = require("./static-server");
+
+// var mongo = require('mongodb').MongoClient;
+// var url = 'mongodb://127.0.0.1:27017/Condos'
 //cargando una liberia que
 //permite persear la informacion
 //de formularios
