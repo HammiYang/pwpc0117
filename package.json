@@ -23,7 +23,7 @@
   "author": "Hammi Muñiz",
   "license": "ISC",
   "devDependencies": {
-    "node": "^1.11.0"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "colors": "^1.1.2",
