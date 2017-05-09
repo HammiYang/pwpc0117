@@ -1,11 +1,16 @@
 {
-  "name": "simple-static-serv",
+  "name": "simple-static-server",
   "version": "1.0.0",
-  "description": "Servidor estático simple",
-  "main": "server.js",
+  "description": "servidor estatico simple",
+    "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
+  "main": "server.js",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "Nodemon server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -15,13 +20,16 @@
     "static",
     "server"
   ],
-  "author": "@Fanny Palacios",
+  "author": "Hammi Muñiz",
   "license": "ISC",
-  "dependencies": {
-    "colors": "^1.1.2",
-    "mime": "^1.3.4"
-  },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mime": "^1.3.4",
+    "bower":"^1.7.9",
+    "mongodb":"^2.2.26",
+    "bootstrap":"^3.3.7"
   }
 }
