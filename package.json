@@ -1,0 +1,27 @@
+{
+  "name": "simple-static-serv",
+  "version": "1.0.0",
+  "description": "Servidor estático simple",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "author": "@Fanny Palacios",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

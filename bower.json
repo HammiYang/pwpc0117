@@ -1,0 +1,22 @@
+{
+  "name": "simple-estatic-server",
+  "description": "servidor estatico simple",
+  "main": "index.js",
+  "authors": [
+    "@Fanny Palacios"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/vendor",
+    "test",
+    "tests"
+  ]
+}
