@@ -12,7 +12,7 @@ exports.serve = function (req, res) {
     var resourcePath;
     if (req.url == "/") {
         // El cliente no especifica recurso
-        resourcePath = path.resolve('./static/index.html');
+        resourcePath = path.resolve('../static/index.html');
     } else {
         // Obteniendo la ruta absoluta del recurso que se desea servir
         resourcePath =
