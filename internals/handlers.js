@@ -103,10 +103,10 @@ var getPostRoot = function (req, res) {
                 if (err) throw err
                 var collection = db.collection('contenido')
                 collection.insert(data, function (err, documents) {
-                    if (err) res.write('tu ide se repite1');
+                    if (err) res.write('Tu IDE se repite');
                     else {
                         res.write('<meta charset="UTF-8">');
-                        res.write('Tus datos Fueron corractamente insertados')
+                        res.write('Tus datos fueron correctamente insertados')
                         res.write(`<p> ${JSON.stringify(data)}</p>`);
                     }
                     db.close()
