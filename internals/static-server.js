@@ -60,11 +60,10 @@ exports.serve = function (req, res) {
             console.log('El recurso solicitado no fue encontrado...'.info);
             res.writeHead(400, {
                 'Content-type': 'text/html',
-                'server': 'ITGAM@.0.1'
+                'server': 'ITGAM@0.0.1'
 
             });
-            res.end(
-                '<body background="../img/404.jpg"> <h1 align="center">');
+            res.end('<body background="../img/404.jpg"> <h1 align="center">');
         }
     });
 }
