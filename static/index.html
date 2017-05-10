@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Awesome Page</title>
-    <!--style>
-        label{
-            
-        }
-    </style-->
     <!--cargando estilos-->
     <link rel="stylesheet" href="css/site.css">
     <!-- Cargando los estilos de sweet alert-->
@@ -25,7 +20,7 @@
     rel="stylesheet" 
     href="vendor/sweetalert/dist/sweetalert.css">
 </head>
-<body style="background: cyan ">
+<body>
       
     <div class="bs-example">
         <form 
@@ -36,39 +31,41 @@
 
             <div class="form-group">
                 <label for="" class="control-label col-xs-5">
-                    INGRESE LOS DATOS
+                    INGRESE SUS DATOS
                 </label>
             </div>
+
             <div class="form-group">
                 <label 
                     for="inputNombre"
                     class="control-label col-xs-2">
-                    Nombre del Producto :
+                    Nombre del condomino
                 </label>
                 <div class="col-xs-5">
                     <input 
                     required
                     class="form-control"
                     type="text"
-                    name="articulo"
-                    id="inputArticulo"
+                    name="Nombre"
+                    id="inputNombre"
                     placeholder="Nombre">
                 </div>
             </div>
+
              <div class="form-group">
                 <label 
                     for="inputApellidos"
                     class="control-label col-xs-2">
-                    Marca del Producto :
+                    Apellidos del condomino
                 </label>
                 <div class="col-xs-5">
                     <input
                     required 
                     class="form-control"
                     type="text"
-                    name="marca"
+                    name="Apellido"
                     id="inputApellidos"
-                    placeholder="Marca">
+                    placeholder="Apellidos">
                 </div>
              </div>    
 
@@ -76,50 +73,50 @@
                 <label 
                     for="inputDepto"
                     class="control-label col-xs-2">
-                    Numero de Unidades :
+                    Numero del Departamento
                 </label>
                 <div class="col-xs-5">
                     <input 
                     required
                     class="form-control"
                     type="text"
-                    name="unidades"
+                    name="Depto"
                     id="inputDepto"
-                    placeholder="Num Unidades">
+                    placeholder="Num Depto">
                 </div>
-    
             </div>
+
              <div class="form-group">
                 <label 
                     for="inputPassword"
                     class="control-label col-xs-2">
-                    ID del Articulo:
+                    Password
                 </label>
                 <div class="col-xs-5">
                     <input 
                     required
                     class="form-control"
-                    type="_id"
+                    type="Password"
                     name="_id"
                     id="inputPassword"
-                    placeholder="Ingrese ID"
-                    maxlength="8">
+                    placeholder="Ingrese Password"
+                    maxlength="19">
                 </div>
             </div>
+            </br> </br></br>
             <!--seccion de envio-->
-            <div class="col-xs-offset-3 col-xs-12">
+            <div class="col-xs-offset-2 col-xs-10">
                 <input 
                 type="submit"
                 class="btn btn-primary"
-                value="Registrar">
+                value="Insertar">
                 <input 
                 type="button" 
                 onclick=" location.href='./getfind' "
-                value="Mostrar Articulos" 
+                value="Mostrar Todo" 
                 name="boton"
                 class="btn btn-primary" />
-            </div>
-             
+            </div>   
         </form>
     </div>
             
@@ -129,8 +126,7 @@
     <script src='vendor/bootstrap/dist/js/bootstrap.min.js'></script>
 
     <!--cargar los scrips de sweetalert-->
-    <script src='vendor/sweetaler/dist/sweetalert.min.js'></script>
-                 vendor\sweetalert\dist\sweetalert.min.js
+    <script src='vendor/sweetalert/dist/sweetalert.min.js'></script>
     <!--cargando scrips-->
     <script src='js/site.js'></script>
 </body>
