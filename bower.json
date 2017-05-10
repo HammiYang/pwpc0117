@@ -1,7 +1,7 @@
 {
   "name": "simple-estatic-server",
   "description": "servidor estatico simple",
-  "main": "index.js",
+  "main": "server.js",
   "authors": [
     "@Hammi Muñiz"
   ],
